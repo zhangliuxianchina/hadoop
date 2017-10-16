@@ -32,6 +32,11 @@ public class FirstDemo {
 		fs.copyToLocalFile(false,new Path("/first"), new Path("e:/"), useRawLocalFileSystem);
 		fs.close();
 	}
+	@Test
+	public void testMkdirs() throws Exception{
+		fs.mkdirs(new Path("/aaa/bbb"));
+		fs.close();
+	}
 	
 	
 
