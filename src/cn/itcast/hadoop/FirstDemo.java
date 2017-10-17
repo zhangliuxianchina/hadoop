@@ -34,7 +34,7 @@ public class FirstDemo {
 	}
 	@Test
 	public void testMkdirs() throws Exception{
-		fs.mkdirs(new Path("/aaa/bbb"));
+		fs.mkdirs(new Path("/aaa/bbb/c"));
 		fs.close();
 	}
 	
