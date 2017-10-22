@@ -21,7 +21,7 @@ public class FirstDemo {
 	
 	@Test
 	public void testPut() throws Exception{
-		fs.copyFromLocalFile(new Path("d:/sts-bundle.zip"), new Path("/"));
+		fs.copyFromLocalFile(new Path("d:/sts-bundle"), new Path("/"));
 		fs.close();
 	}
 	
