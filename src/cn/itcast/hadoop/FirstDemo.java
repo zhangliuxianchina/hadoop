@@ -17,7 +17,7 @@ public class FirstDemo {
 	@Before
 	public void init() throws Exception{
 		conf = new Configuration();
-		fs=FileSystem.get(new URI("hdfs://192.168.204.128:9000"), conf, "root");
+		fs=FileSystem.get(new URI("hdfs://192.168.157.128:9000"), conf, "root");
 	}
 	
 	@Test
